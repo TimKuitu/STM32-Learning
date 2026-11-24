@@ -1,0 +1,43 @@
+# =====================================================================
+# STM32CubeMX + CMake 源码仓库 .gitignore（仅保留源码与构建/工程定义）
+# =====================================================================
+
+# --- 构建输出目录与编译产物 ---
+build/
+out/
+Debug/
+Release/
+*.o
+*.obj
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.lss
+*.su
+*.cyclo
+*.a
+*.lib
+compile_commands.json
+
+# --- STM32CubeMX / CubeIDE 临时与本地缓存 ---
+mx.scratch
+.mxproject
+.settings/
+.cproject
+.project
+
+# --- IDE / 编辑器本地配置与工作区缓存 ---
+.vscode/
+.cache/
+.idea/
+*.code-workspace
+
+# --- 系统临时文件 ---
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*~
